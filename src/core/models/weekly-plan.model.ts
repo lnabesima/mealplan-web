@@ -1,11 +1,11 @@
 import type { DayOfWeek } from "../constants";
-import type { Receipe } from "./recipe.model";
+import type { Recipe } from "./recipe.model";
 
 export interface DailyPlan {
   day: DayOfWeek;
-  breakfast: Receipe | null;
-  lunch: Receipe | null;
-  dinner: Receipe | null;
+  breakfast: Recipe | null;
+  lunch: Recipe | null;
+  dinner: Recipe | null;
 }
 
 export type WeeklyPlan = DailyPlan[];
