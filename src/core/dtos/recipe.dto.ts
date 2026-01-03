@@ -1,4 +1,4 @@
-export interface RecipeDto{
-  id: string,
-  name: string,
+export interface RecipeDto {
+  id: string;
+  name: string;
 }
